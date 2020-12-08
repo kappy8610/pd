@@ -2,6 +2,14 @@ header {
   margin: 32px;
 }
 
+body {
+  margin: 2em;
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+
 .contents *:focus {
   box-shadow: none !important;
 }
@@ -14,8 +22,8 @@ header {
   background-color: white;
 }
 
-.item div {
-  width: 150px;
+.item {
+  height: 300px;
 }
 
 .item button, .item textarea, .item p{
